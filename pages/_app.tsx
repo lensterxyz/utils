@@ -1,5 +1,5 @@
-function Collect() {
+function Utils() {
   return <div>gm</div>;
 }
 
-export default Collect;
+export default Utils;
