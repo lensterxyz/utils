@@ -7,7 +7,7 @@ const nextConfig = {
     return [
       {
         source: "/collect/:match*",
-        destination: "https://api-eu.mixpanel.com/:match*",
+        destination: "https://api.mixpanel.com/:match*",
       },
     ];
   },
