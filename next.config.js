@@ -11,7 +11,7 @@ const nextConfig = {
       },
       {
         source: "/birdstats",
-        destination: "https://cloud.axiom.co/api/v1/datasets/birdstats/ingest",
+        destination: "https://cloud.axiom.co/api/v1/datasets/birdstats/ingest/",
       },
     ];
   },
