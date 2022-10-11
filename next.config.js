@@ -9,6 +9,10 @@ const nextConfig = {
         source: "/collect/:match*",
         destination: "https://api.mixpanel.com/:match*",
       },
+      {
+        source: "/birdstats",
+        destination: "https://cloud.axiom.co/api/v1/datasets/birdstats/ingest",
+      },
     ];
   },
 };
