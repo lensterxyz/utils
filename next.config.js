@@ -6,8 +6,8 @@ const nextConfig = {
   async rewrites() {
     return [
       {
-        source: "/collect/:match*",
-        destination: "https://api.mixpanel.com/:match*",
+        source: '/leafwatch',
+        destination: 'https://logs.browser-intake-datadoghq.eu/api/v2/logs'
       },
       {
         source: "/rpc/polygon",
